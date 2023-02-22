@@ -91,7 +91,7 @@ font-spider  -V
 ```css
 @font-face{
     font-family:'fontName';
-    src;url('../font/FZYANSJW_CU.ttf') format("opentype");
+    src:url('../font/FZYANSJW_CU.ttf') format("opentype");
     font-weight: normal;
     font-size: normal;
 }
