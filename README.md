@@ -90,4 +90,15 @@ font-spider  -V
 3. 每次有新增加的文字或字符时，需要将font文件夹的.ttf文件更换为之前的初始字体库文件，再运行打包命令。
 
 ### 上线时
-上线项目时,只需要在上传项目代码的同时上传css文件和font文件夹，通过`font-family:fontName;`指定字体样式名就可以正常使用
+- 上线项目时,只需要在上传项目代码的同时上传css文件和font文件夹，通过`font-family:fontName;`指定字体样式名就可以正常使用。
+- 如果是vue项目的话，则新建css文件通过`WebFont`定义好`@font-face`,再引入css文件，这样当我们需要使用字体库的时候，也可以通过 `font-family:fontName;`来正常使用了。css文件如下：
+```css
+@font-face{
+    font-family:'fontName';
+    src;url('../font/FZYANSJW_CU.ttf') format("opentype");
+    font-weight: normal;
+    font-size: normal;
+}
+```
+
+
