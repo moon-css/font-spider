@@ -3,7 +3,7 @@
 ## 目的
 分析本地*CSS*和*HTML文件*获取`WebFont`中没有使用的字符，通过删除这些字符实现字体库文件的压缩，并生成可以跨浏览器使用的文件格式，从而解决加载缓慢的问题。
 
-## 下载和安装
+## 下载安装和使用
 
 ### 通过node工具导入字蛛
 
@@ -20,10 +20,6 @@ font-spider  -V
 运行本行指令可查看字蛛有无安装成功，并获得使用版本，结果如下即为安装成功。
 
 <img width="589" alt="image" src="https://user-images.githubusercontent.com/70060430/220540441-02abc93d-d235-49c8-b616-ebf6fb0136db.png">
-
-
-
-## 使用
 
 - 在*css*中使用`WebFont`:
 ```css
