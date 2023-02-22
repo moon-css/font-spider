@@ -27,7 +27,7 @@ font-spider  -V
 
 - 在*css*中使用`WebFont`:
 ```css
-/*声明WebFont,font-family为自定义字体库命名*/
+/*声明WebFont,font-family为自定义字体库命名，src中的文件名随着使用的ttf文件名称的不同而改变*/
 @font-face{
     font-family:'fontName';
     src:url('../font/FZYANSJW_CU.eot');
