@@ -63,7 +63,7 @@ font-spider  -V
 
 2. [style.css](https://github.com/moon-css/font-spider/blob/main/css/style.css)
 
-在*css*中使用`WebFont`引入指定字体库，此处也使用**相对路径**，并且注意*.ttf*文件一定要存在。同时使用*css选择器*将`div`的字体样式指定为我们命名的`fontName`。
+在*css*中使用`WebFont`引入指定字体库，此处也使用**相对路径**，并且注意.ttf文件一定要存在。同时使用*css选择器*将`div`的字体样式指定为我们命名的`fontName`。
 
 <img width="903" alt="image" src="https://user-images.githubusercontent.com/70060430/220542867-134c6025-5195-4453-a005-162ab661f1ac.png">
 
@@ -73,7 +73,7 @@ font-spider  -V
 
 <img width="644" alt="image" src="https://user-images.githubusercontent.com/70060430/220545854-7a55105a-0013-459a-a6b8-b5518502bc3e.png">
 
-结果如图所示即为打包成功，此时*font*文件夹中会将初始字体库文件放入*.font-spider*隐藏文件中，并重新压缩打包生成新的字体库文件，如下图：
+结果如下图所示即为打包成功，此时*font*文件夹中会将初始字体库文件放入*.font-spider*隐藏文件中，并重新压缩打包生成新的字体库文件：
 
 <img width="357" alt="image" src="https://user-images.githubusercontent.com/70060430/220548361-99510425-c175-412d-acbf-c9be7d68c796.png">
 
