@@ -73,7 +73,7 @@ font-spider  -V
 
 <img width="644" alt="image" src="https://user-images.githubusercontent.com/70060430/220545854-7a55105a-0013-459a-a6b8-b5518502bc3e.png">
 
-结果如下图所示即为打包成功，此时*font*文件夹中会将初始字体库文件放入*.font-spider*隐藏文件中，并重新压缩打包生成新的字体库文件：
+结果如上图所示即为打包成功，此时*font*文件夹中会将初始字体库文件放入.font-spider隐藏文件中，并重新压缩打包生成新的字体库文件，如下图：
 
 <img width="357" alt="image" src="https://user-images.githubusercontent.com/70060430/220548361-99510425-c175-412d-acbf-c9be7d68c796.png">
 
@@ -87,7 +87,8 @@ font-spider  -V
 ### 开发时
 1. 运行打包命令之前一定要将所有需要使用自定义文字库的字符放入*html*文件；
 2. 使用相对路径的*css*和*webfont*；
-3. 每次有新增加的文字或字符时，需要将font文件夹的*.ttf*文件更换为之前的初始字体库文件，再运行打包命令。
+3. 每次有新增加的文字或字符时，需要将font文件夹的.ttf文件更换为之前的初始字体库文件，再运行打包命令。
 
 ### 上线时
-上线项目时，不需要使用以上的代码，只需要使用*font*文件夹中压缩之后的字体库文件，通过`font-family:fontName;`指定字体样式名就可以正常使用
+- 上线项目时,只需要同时上传css文件和font文件夹，通过`font-family:fontName;`指定字体样式名就可以正常使用。
+- 或者直接上传font中的
